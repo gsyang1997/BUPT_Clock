@@ -11,13 +11,13 @@ REPORT_API = 'https://app.bupt.edu.cn/ncov/wap/default/save'
 # 当今日没有填报时，在https://app.bupt.edu.cn/ncov/wap/default/index下进行填报，
 # 全部填完，不要提交，f12打开控制台，在Console页面下输入代码 console.log(vm.info) 就会得到以下信息，之后每天就默认填以下信息
 INFO = r"""{
-        "address":"北京市海淀区北太平庄街道北京邮电大学计算机学院北京邮电大学海淀校区",
-        "area":"北京市  海淀区",
+        "address":"湖南省株洲市攸县联星街道文化路75号",
+        "area":"湖南省 株洲市 攸县",
         "bztcyy":"",
-        "city":"北京市",
+        "city":"株洲市",
         "csmjry":"0",
         "fjqszgjdq":"",
-        "geo_api_info":"{\"type\":\"complete\",\"position\":{\"Q\":39.960390625,\"R\":116.356397569445,\"lng\":116.356398,\"lat\":39.960391},\"location_type\":\"html5\",\"message\":\"Get ipLocation failed.Get geolocation success.Convert Success.Get address success.\",\"accuracy\":23,\"isConverted\":true,\"status\":1,\"addressComponent\":{\"citycode\":\"010\",\"adcode\":\"110108\",\"businessAreas\":[{\"name\":\"北下关\",\"id\":\"110108\",\"location\":{\"Q\":39.955976,\"R\":116.33873,\"lng\":116.33873,\"lat\":39.955976}},{\"name\":\"西直门\",\"id\":\"110102\",\"location\":{\"Q\":39.942856,\"R\":116.34666099999998,\"lng\":116.346661,\"lat\":39.942856}},{\"name\":\"小西天\",\"id\":\"110108\",\"location\":{\"Q\":39.957147,\"R\":116.364058,\"lng\":116.364058,\"lat\":39.957147}}],\"neighborhoodType\":\"科教文化服务;学校;高等院校\",\"neighborhood\":\"北京邮电大学\",\"building\":\"北京邮电大学计算机学院\",\"buildingType\":\"科教文化服务;学校;高等院校\",\"street\":\"西土城路\",\"streetNumber\":\"10号\",\"country\":\"中国\",\"province\":\"北京市\",\"city\":\"\",\"district\":\"海淀区\",\"township\":\"北太平庄街道\"},\"formattedAddress\":\"北京市海淀区北太平庄街道北京邮电大学计算机学院北京邮电大学海淀校区\",\"roads\":[],\"crosses\":[],\"pois\":[],\"info\":\"SUCCESS\"}",
+        "geo_api_info": "{\"type\":\"complete\",\"position\":{\"Q\":27.002603081598,\"R\":113.355053439671,\"lng\":113.355053,\"lat\":27.002603},\"location_type\":\"html5\",\"message\":\"Get ipLocation failed.Get geolocation success.Convert Success.Get address success.\",\"accuracy\":22.5,\"isConverted\":true,\"status\":1,\"addressComponent\":{\"citycode\":\"0733\",\"adcode\":\"430223\",\"businessAreas\":[],\"neighborhoodType\":\"\",\"neighborhood\":\"\",\"building\":\"\",\"buildingType\":\"\",\"street\":\"文化路\",\"streetNumber\":\"75号\",\"country\":\"中国\",\"province\":\"湖南省\",\"city\":\"株洲市\",\"district\":\"攸县\",\"towncode\":\"430223005000\",\"township\":\"联星街道\"},\"formattedAddress\":\"湖南省株洲市攸县联星街道文化路75号\",\"roads\":[],\"crosses\":[],\"pois\":[],\"info\":\"SUCCESS\"}",
         "glksrq":"",
         "gllx":"",
         "gtjzzchdfh":"",
@@ -32,7 +32,7 @@ INFO = r"""{
         "jhfjjtgj":"",
         "jhfjrq":"",
         "mjry":"0",
-        "province":"北京市",
+        "province":"湖南省",
         "qksm":"",
         "remark":"",
         "sfcxtz":"0",
